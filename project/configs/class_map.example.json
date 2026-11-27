@@ -1,0 +1,7 @@
+{
+  "version": "PENDING_TEAM_VERIFIED_MAPPING",
+  "status": "template_only",
+  "classes": [],
+  "item_ids": {},
+  "instructions": "기존 검증된 라벨에서 불량 0–110, 정상 111–140 및 30품목 item_ids 0–29를 제공한다. 임의 자동 생성하지 않는다."
+}

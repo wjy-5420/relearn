@@ -1,0 +1,17 @@
+/.venvs/
+/workspace/*
+!/workspace/README.md
+*.csv
+*.local.json
+*.local.yaml
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+*.pt
+*.pth
+*.ckpt
+.env
+*.local.log

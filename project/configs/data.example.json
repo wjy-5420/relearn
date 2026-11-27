@@ -1,0 +1,40 @@
+{
+  "csv_path": "../../workspace/inputs/metadata/shared_30k.csv",
+  "data_root": "REPLACE_WITH_EXISTING_REAL_IAD_ROOT",
+  "class_map": null,
+  "encoding": "utf-8-sig",
+  "delimiter": ",",
+  "columns": {
+    "image_path": "image_path",
+    "item": "item",
+    "product_id": "product_id",
+    "view": "view",
+    "split": "split",
+    "product_label": "product_label",
+    "image_label": "image_label",
+    "mask_path": "mask_path",
+    "defect_class_id": "defect_class_id",
+    "roi_xyxy": "roi_xyxy",
+    "roi_verified": "roi_verified",
+    "annotations": "annotations"
+  },
+  "split_values": {
+    "train": "train",
+    "val": "val",
+    "validation": "val",
+    "test": "test"
+  },
+  "label_values": {
+    "0": 0,
+    "1": 1,
+    "OK": 0,
+    "NG": 1,
+    "UNKNOWN": -1,
+    "": -1
+  },
+  "path_prefixes": {},
+  "require_five_views": true,
+  "input_size": 448,
+  "seed": 42,
+  "crop_to_roi": false
+}

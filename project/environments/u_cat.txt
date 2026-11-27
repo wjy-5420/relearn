@@ -1,0 +1,2 @@
+# Provisional input-adapter environment; official U-CAT source still required.
+-r common.txt
