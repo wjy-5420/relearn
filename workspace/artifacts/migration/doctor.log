@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:46:43) [GCC 14.3.0]",
+  "executable": "/home/user1/anaconda3/envs/mv/bin/python",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "numpy": "2.5.4",
+  "Pillow": "13.0.0",
+  "torch": "2.15.0",
+  "torchvision": "0.29.2",
+  "cuda_available": false,
+  "cuda_build": "13.2"
+}

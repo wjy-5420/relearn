@@ -1,0 +1,41 @@
+
+=== yolo11s: 환경 검사 ===
+{
+  "python": "3.10.22 | packaged by conda-forge | (main, Oct  6 2026, 23:02:24) [GCC 14.4.0]",
+  "executable": "/home/user1/relearn/.venvs/yolo11s/bin/python",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "numpy": "1.23.5",
+  "Pillow": "10.4.0",
+  "torch": "2.5.1+cpu",
+  "torchvision": "0.20.1+cpu",
+  "cuda_available": false,
+  "cuda_build": null
+}
+No broken requirements found.
+
+=== yolo11s: 합성 CSV 로더 검사 ===
+test_all_six_adapter_batches (test_csv_pipeline.AdapterTests) ... ok
+test_train_shuffle_is_reproducible (test_csv_pipeline.AdapterTests) ... ok
+test_worker_spawn_picklability (test_csv_pipeline.AdapterTests) ... ok
+test_box_roundtrip_and_mask_alignment (test_csv_pipeline.GeometryLabelTests) ... ok
+test_class_map_rejects_missing_or_remapped_classes (test_csv_pipeline.GeometryLabelTests) ... ok
+test_crop_that_discards_defect_rejected (test_csv_pipeline.GeometryLabelTests) ... ok
+test_evaluation_augmentation_forbidden (test_csv_pipeline.GeometryLabelTests) ... ok
+test_fixed_eval_repeated_and_common_train_augmentation (test_csv_pipeline.GeometryLabelTests) ... ok
+test_missing_defect_mask_does_not_become_negative_gt (test_csv_pipeline.GeometryLabelTests) ... ok
+test_normal_name_can_repeat_across_distinct_items (test_csv_pipeline.GeometryLabelTests) ... ok
+test_normal_roi_never_invented (test_csv_pipeline.GeometryLabelTests) ... ok
+test_normal_view_of_defect_product_has_normal_roi_label (test_csv_pipeline.GeometryLabelTests) ... ok
+test_unknown_labels_fail_before_batch_use (test_csv_pipeline.GeometryLabelTests) ... ok
+test_ad_does_not_silently_drop_unknown_views (test_csv_pipeline.ManifestTests) ... ok
+test_ad_filters_by_product_not_only_image_label (test_csv_pipeline.ManifestTests) ... ok
+test_duplicate_image_rejected (test_csv_pipeline.ManifestTests) ... ok
+test_header_mapping_and_read_only (test_csv_pipeline.ManifestTests) ... ok
+test_missing_view_rejected (test_csv_pipeline.ManifestTests) ... ok
+test_product_split_leak_rejected (test_csv_pipeline.ManifestTests) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 1.416s
+
+OK
+선택한 Ubuntu 환경의 입력 검사가 모두 통과했습니다. 모델 학습 검증은 별도입니다.

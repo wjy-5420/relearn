@@ -1,0 +1,13 @@
+{
+  "model": "hvq_trans",
+  "installed": true,
+  "platform": "Ubuntu-24.04 WSL2",
+  "verification": "synthetic_csv_adapter_only",
+  "pip_check": {
+    "passed": true
+  },
+  "tests": {
+    "passed": true,
+    "count": 19
+  }
+}

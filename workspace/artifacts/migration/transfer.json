@@ -1,0 +1,22 @@
+{
+  "source": "/mnt/c/Users/user1/Documents/ChatGPT/5시점 제조 외관검사",
+  "target": "/home/user1/relearn",
+  "verified_files": 851,
+  "source_removed": true,
+  "windows_venvs_transferred": false,
+  "existing_target_git_preserved": true,
+  "data_root": "/mnt/c/Users/user1/Desktop/JY_project/team_project_2/data",
+  "source_note": "Project source and obsolete Windows environments removed; original Windows folder contains relocation notice and legacy Git metadata only.",
+  "ubuntu_existing_env_test": {
+    "python": "/home/user1/anaconda3/envs/mv/bin/python",
+    "python_version": "3.12.14",
+    "tests": 19,
+    "passed": true,
+    "independent_model_envs": false
+  },
+  "ubuntu_native_envs_verified": 6,
+  "ubuntu_native_tests_passed": 114,
+  "legacy_windows_envs_removed": true,
+  "git_commit": "e0f0a5bb13548000af047a9ea28693836a854314",
+  "git_push": "authentication_required"
+}

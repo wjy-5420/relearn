@@ -1,6 +1,7 @@
 /.venvs/
-/workspace/*
-!/workspace/README.md
+/workspace/inputs/
+/workspace/runtime/
+/workspace/third_party/
 *.csv
 *.local.json
 *.local.yaml

@@ -1,0 +1,80 @@
+[
+  {
+    "model": "hvq_trans",
+    "installed": true,
+    "platform": "Ubuntu-24.04 WSL2",
+    "verification": "synthetic_csv_adapter_only",
+    "pip_check": {
+      "passed": true
+    },
+    "tests": {
+      "passed": true,
+      "count": 19
+    }
+  },
+  {
+    "model": "dinomaly_small",
+    "installed": true,
+    "platform": "Ubuntu-24.04 WSL2",
+    "verification": "synthetic_csv_adapter_only",
+    "pip_check": {
+      "passed": true
+    },
+    "tests": {
+      "passed": true,
+      "count": 19
+    }
+  },
+  {
+    "model": "u_cat",
+    "installed": true,
+    "platform": "Ubuntu-24.04 WSL2",
+    "verification": "synthetic_csv_adapter_only",
+    "pip_check": {
+      "passed": true
+    },
+    "tests": {
+      "passed": true,
+      "count": 19
+    }
+  },
+  {
+    "model": "rtdetrv2_s",
+    "installed": true,
+    "platform": "Ubuntu-24.04 WSL2",
+    "verification": "synthetic_csv_adapter_only",
+    "pip_check": {
+      "passed": true
+    },
+    "tests": {
+      "passed": true,
+      "count": 19
+    }
+  },
+  {
+    "model": "yolo11s",
+    "installed": true,
+    "platform": "Ubuntu-24.04 WSL2",
+    "verification": "synthetic_csv_adapter_only",
+    "pip_check": {
+      "passed": true
+    },
+    "tests": {
+      "passed": true,
+      "count": 19
+    }
+  },
+  {
+    "model": "ecf_yolov7_tiny",
+    "installed": true,
+    "platform": "Ubuntu-24.04 WSL2",
+    "verification": "synthetic_csv_adapter_only",
+    "pip_check": {
+      "passed": true
+    },
+    "tests": {
+      "passed": true,
+      "count": 19
+    }
+  }
+]
